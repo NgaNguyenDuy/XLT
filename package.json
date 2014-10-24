@@ -1,0 +1,16 @@
+{
+  "name": "ServerXLT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.0",
+    "errorhandler": "^1.2.2",
+    "vsoft-datasource-juggler": "^2.10.1",
+    "serve-favicon": "^2.1.6",
+    "vf": "*",
+    "vsoft-boot": "0.x"
+  }
+}
