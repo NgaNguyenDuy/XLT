@@ -1,6 +1,14 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  }
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    }, 
+    "mongoDB": {
+        "name": "mongoDB",
+        "connector": "mongodb",
+        "host": "",
+        "database": "dbXLT",
+        "username": "",
+        "password": ""
+    }
 }
