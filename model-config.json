@@ -25,15 +25,19 @@
         "dataSource": "db",
         "public": false
     },
-    "Course": {
+    "course": {
         "dataSource": "mongoDB",
         "public": true
     },
-    "Bill": {
+    "bill": {
         "dataSource": "mongoDB",
         "public": true
     },
-    "Session": {
+    "session": {
+        "dataSource": "mongoDB",
+        "public": true
+    },
+    "user": {
         "dataSource": "mongoDB",
         "public": true
     }
