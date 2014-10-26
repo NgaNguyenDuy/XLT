@@ -1,5 +1,5 @@
 {
-    "name": "Bill",
+    "name": "bill",
     "base": "PersistedModel",
     "properties": {
         "groupID": {

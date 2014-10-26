@@ -1,5 +1,5 @@
 {
-    "name": "Course",
+    "name": "course",
     "base": "PersistedModel",
     "properties": {
         "title": {
@@ -60,15 +60,29 @@
     "relations": {
         "bills": {
             "type": "hasMany",
-            "model": "Bill",
+            "model": "bill",
             "foreignKey": "courseID"
         },
         "sessions": {
             "type": "hasMany",
-            "model": "Session",
-            "foreignKey": "cIDs"
+            "model": "session",
+            "foreignKey": "courseID"
         }
     },
-    "acls": [],
+    "acls": [
+        {
+            "accessType": "*",
+            "principalType": "ROLE",
+            "principalId": "$everyone",
+            "permission": "find"
+        },
+        {
+            "accessType": "EXECUTE",
+            "principalType": "ROLE",
+            "principalId": "$everyone",
+            "permission": "ALLOW",
+            "property": "listCourses"
+        }
+    ],
     "methods": []
 }
