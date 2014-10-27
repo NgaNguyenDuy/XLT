@@ -9,6 +9,7 @@
     "errorhandler": "^1.2.2",
     "vf": "^0.1.5",
     "vsoft-boot": "0.0.2",
+    "vsoft-connector-mongodb": "^1.0.0",
     "vsoft-datasource-juggler": "^2.10.7",
     "vsoft-explorer": "^0.2.0"
   },
