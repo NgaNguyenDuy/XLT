@@ -1,0 +1,22 @@
+{
+    "name": "session",
+    "base": "PersistedModel",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "balance": {
+            "type": "number"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "users": {
+            "type": "hasMany",
+            "model": "user",
+            "foreignKey": "sessionID"
+        }
+    },
+    "acls": [],
+    "methods": []
+}

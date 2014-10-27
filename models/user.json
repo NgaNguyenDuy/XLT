@@ -1,0 +1,29 @@
+{
+  "name": "user",
+  "base": "User",
+  "properties": {
+    "username": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+      "courses": {
+          "type": "hasMany",
+          "model": "course",
+          "foreignKey": "userId"
+      },
+      "sessions": {
+          "type": "hasMany",
+          "model": "session",
+          "foreignKey": "userId"
+      },
+      "bills": {
+          "type": "hasMany",
+          "model": "session",
+          "foreignKey": "userId"
+      }
+  },
+  "acls": [],
+  "methods": []
+}
