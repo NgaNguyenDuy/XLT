@@ -1,0 +1,31 @@
+{
+  "name": "XLT",
+  "version": "1.0.0",
+  "description": "XLT ===",
+  "main": "sample_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NgaNguyenDuy/XLT.git"
+  },
+  "author": "NgaNguyenDuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NgaNguyenDuy/XLT/issues"
+  },
+  "homepage": "https://github.com/NgaNguyenDuy/XLT",
+  "dependencies": {
+    "body-parser": "^1.9.1",
+    "ejs": "^1.0.0",
+    "serve-favicon": "^2.1.6",
+    "vf": "^0.1.3",
+    "vsoft-boot": "0.0.2",
+    "vsoft-connector-mongodb": "^1.0.0",
+    "vsoft-datasource-juggler": "^2.10.6"
+  },
+  "devDependencies": {
+    "vsoft-explorer": "^0.2.0"
+  }
+}
