@@ -1,0 +1,21 @@
+{
+    "name": "bill",
+    "base": "PersistedModel",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "balance": {
+            "type": "number"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "user": {
+            "type": "belongsTo",
+            "model": "user"
+        }
+    },
+    "acls": [],
+    "methods": []
+}
