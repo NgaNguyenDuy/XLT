@@ -1,29 +1,48 @@
 {
-  "name": "user",
-  "base": "User",
-  "properties": {
-    "username": {
-      "type": "string"
-    }
-  },
-  "validations": [],
-  "relations": {
-      "courses": {
-          "type": "hasMany",
-          "model": "course",
-          "foreignKey": "userId"
-      },
-      "sessions": {
-          "type": "hasMany",
-          "model": "session",
-          "foreignKey": "userId"
-      },
-      "bills": {
-          "type": "hasMany",
-          "model": "session",
-          "foreignKey": "userId"
-      }
-  },
-  "acls": [],
-  "methods": []
+    "name": "user",
+    "base": "User",
+    "properties": {
+        "fullName": {
+            "type": "string",
+            "description": "This is user fullname"
+        },
+        "birthday": {
+            "type": "date",
+            "required": true
+        },
+        "personalID": {
+            "type": "string",
+            "description": "personal id user"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "Addr": {
+            "type": "string"
+        },
+        "avatar": {
+            "type": "string"
+        }
+        
+    },
+    "validations": [],
+    "relations": {
+        "courses": {
+            "type": "hasMany",
+            "model": "course",
+            "foreignKey": "userId"
+        },
+        "sessions": {
+            "type": "hasMany",
+            "model": "session",
+            "foreignKey": "userId"
+        },
+        "bills": {
+            "type": "hasMany",
+            "model": "session",
+            "foreignKey": "userId"
+        }
+    },
+    "acls": [],
+    "methods": []
 }

@@ -2,11 +2,18 @@
     "name": "bill",
     "base": "PersistedModel",
     "properties": {
-        "name": {
+        "tutionNum": {
+            "type": "number"
+        },
+        "tutionStr": {
             "type": "string"
         },
-        "balance": {
-            "type": "number"
+        "dateCollect": {
+            "type": "date",
+            "description": "date of collection"
+        },
+        "cashier": {
+            "type": "string"
         }
     },
     "validations": [],

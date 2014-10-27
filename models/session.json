@@ -2,11 +2,19 @@
     "name": "session",
     "base": "PersistedModel",
     "properties": {
-        "name": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "teacher": {
             "type": "string"
         },
-        "balance": {
-            "type": "number"
+        "dateSession": {
+            "type": "date",
+            "required": true
+        },
+        "note": {
+            "type": "string"
         }
     },
     "validations": [],
