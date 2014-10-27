@@ -6,11 +6,13 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "~4.9.0",
     "errorhandler": "^1.2.2",
-    "vsoft-datasource-juggler": "^2.10.1",
-    "serve-favicon": "^2.1.6",
-    "vf": "*",
-    "vsoft-boot": "0.x"
+    "vf": "^0.1.5",
+    "vsoft-boot": "0.0.2",
+    "vsoft-datasource-juggler": "^2.10.7",
+    "vsoft-explorer": "^0.2.0"
+  },
+  "devDependencies": {
+    "vsoft-explorer": "^0.2.0"
   }
 }
