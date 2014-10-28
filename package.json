@@ -6,6 +6,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "body-parser": "^1.9.2",
     "errorhandler": "^1.2.2",
     "vf": "^0.1.5",
     "vsoft-boot": "0.0.2",

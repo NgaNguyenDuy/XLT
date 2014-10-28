@@ -4,6 +4,9 @@ var boot = require('vsoft-boot');
 var app = vf();
 app.use(vf.favicon());
 
+// -- Add your pre-processing middleware here --
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
 
 boot(app, __dirname);
 
