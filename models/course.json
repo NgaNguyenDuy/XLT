@@ -10,12 +10,36 @@
             "type": "string",
             "required": true
         },
+        "imageView": {
+            "type": "string"
+        },
         "desc": {
+            "type": "string"
+        },
+        "timeLearn": {
+            "type": "string"
+        },
+        "tutionFee": {
             "type": "string"
         },
         "teacher": {
             "type": "string",
             "required": true
+        },
+        "saleOf": {
+            "type": "number"
+        },
+        "dayLearn": {
+            "type": "string"
+        },
+        "startTime": {
+            "type": "string"
+        },
+        "startDate": {
+            "type": "date"
+        },
+        "note": {
+            "type": "string"
         },
         "location": {
             "type": "string",
