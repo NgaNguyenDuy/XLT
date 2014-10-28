@@ -27,7 +27,7 @@
         "courses": {
             "type": "belongsTo",
             "model": "course",
-            "foreignKey": "sessionID"
+            "foreignKey": "courseID"
         }
     },
     "acls": [],
