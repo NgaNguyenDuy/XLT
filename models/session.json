@@ -23,6 +23,11 @@
             "type": "hasMany",
             "model": "user",
             "foreignKey": "sessionID"
+        },
+        "courses": {
+            "type": "belongsTo",
+            "model": "course",
+            "foreignKey": "sessionID"
         }
     },
     "acls": [],
