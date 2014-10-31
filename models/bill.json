@@ -2,25 +2,28 @@
     "name": "bill",
     "base": "PersistedModel",
     "properties": {
-        "tutionNum": {
-            "type": "number"
+        "totalMount": {
+            "type": "string",
+            "required": true
         },
-        "tutionStr": {
-            "type": "string"
+        "collected": {
+            "type": "String"
         },
-        "dateCollect": {
-            "type": "date",
-            "description": "date of collection"
-        },
-        "cashier": {
-            "type": "string"
+        "data": {
+            "type": "date"
         }
     },
     "validations": [],
     "relations": {
-        "user": {
+        "user_bills": {
             "type": "belongsTo",
-            "model": "user"
+            "model": "user_bill",
+            "foreignKey": "userBillID"
+        },
+        "courses": {
+            "type": "belongsTo",
+            "model": "course",
+            "foreignKey": "courseID"
         }
     },
     "acls": [],

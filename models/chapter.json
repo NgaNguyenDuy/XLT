@@ -1,0 +1,34 @@
+{
+    "name": "chapter",
+    "base": "PersistedModel",
+    "properties": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "teacher": {
+            "type": "string",
+            "required": true
+        },
+        "slide": {
+            "type": "object",
+            "required": true
+        },
+        "practice": {
+            "type": "object",
+            "required": true
+        },
+        "dateC": {
+            "type": "date"
+        },
+        "note": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {
+
+    },
+    "acls": [],
+    "methods": []
+}

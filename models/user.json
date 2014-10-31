@@ -2,45 +2,50 @@
     "name": "user",
     "base": "User",
     "properties": {
+        "email": {
+            "type": "string",
+            "required": true
+        },
         "fullName": {
             "type": "string",
-            "description": "This is user fullname"
+            "required": true
         },
         "birthday": {
             "type": "date",
             "required": true
         },
-        "personalID": {
+        "sex": {
             "type": "string",
-            "description": "personal id user"
+            "required": true
         },
         "phone": {
-            "type": "string"
+            "type": "string",
+            "required": true
         },
-        "Addr": {
-            "type": "string"
+        "addr": {
+            "type": "string",
+            "required": true
         },
         "avatar": {
-            "type": "string"
+            "type": "string",
+            "required": true
+        },
+        "role": {
+            "type": "string",
+            "required": true,
+            "default": "user"
+        },
+        "courseId": {
+            "type": "array"
         }
         
     },
     "validations": [],
     "relations": {
-        "courses": {
-            "type": "hasMany",
-            "model": "course",
-            "foreignKey": "userId"
-        },
-        "sessions": {
-            "type": "hasMany",
-            "model": "session",
-            "foreignKey": "userId"
-        },
         "bills": {
             "type": "hasMany",
-            "model": "session",
-            "foreignKey": "userId"
+            "model": "bill",
+            "foreignKey": "userID"
         }
     },
     "acls": [],

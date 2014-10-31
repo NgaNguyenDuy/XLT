@@ -1,0 +1,19 @@
+{
+    "name": "user_bill",
+    "base": "PersistedModel",
+    "properties": {
+        "userID": {
+            "type": "string",
+            "required": true
+        },
+        "courseID": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {
+    },
+    "acls": [],
+    "methods": []
+}

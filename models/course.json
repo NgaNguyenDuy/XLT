@@ -6,27 +6,38 @@
             "type": "string",
             "required": true
         },
-	    "slug" : {
+	    "subtitle" : {
             "type": "string",
             "required": true
         },
-        "imageView": {
-            "type": "string"
-        },
         "desc": {
-            "type": "string"
+            "type": "string",
+            "required": true
         },
-        "timeLearn": {
-            "type": "string"
+        "summary": {
+            "type": "string",
+            "required": true
         },
-        "tutionFee": {
-            "type": "string"
+        "image": {
+            "type": "string",
+            "required": true
         },
         "teacher": {
             "type": "string",
             "required": true
         },
-        "saleOf": {
+        "timeLearn": {
+            "type": "string",
+            "required": true
+        },
+        "status": {
+            "type": "string",
+            "required": true
+        },
+        "tutionFee": {
+            "type": "string"
+        },
+        "saleOff": {
             "type": "number"
         },
         "dayLearn": {
@@ -42,25 +53,14 @@
             "type": "string"
         },
         "location": {
-            "type": "string",
-            "required": true
+            "type": "string"
         }
     },
     "validations": [],
     "relations": {
-        "users": {
+        "chapters": {
             "type": "hasMany",
-            "model": "user",
-            "foreignKey": "courseID"
-        },
-        "sessions": {
-            "type": "hasMany",
-            "model": "session",
-            "foreignKey": "courseID"
-        },
-        "bills": {
-            "type": "hasMany",
-            "model": "bill",
+            "model": "chapter",
             "foreignKey": "courseID"
         }
     },
@@ -68,3 +68,4 @@
     ],
     "methods": []
 }
+
