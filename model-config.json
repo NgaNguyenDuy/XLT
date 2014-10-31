@@ -1,30 +1,30 @@
 {
-  "_meta": {
-    "sources": [
-      "../common/models",
-      "./models"
-    ]
-  },
-  "User": {
-    "dataSource": "db",
-      "public": false
-  },
-  "AccessToken": {
-    "dataSource": "db",
-    "public": false
-  },
-  "ACL": {
-    "dataSource": "db",
-    "public": false
-  },
-  "RoleMapping": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
-  },
+    "_meta": {
+        "sources": [
+            "../common/models",
+            "./models"
+        ]
+    },
+    "User": {
+        "dataSource": "db",
+        "public": false
+    },
+    "AccessToken": {
+        "dataSource": "db",
+        "public": false
+    },
+    "ACL": {
+        "dataSource": "db",
+        "public": false
+    },
+    "RoleMapping": {
+        "dataSource": "db",
+        "public": false
+    },
+    "Role": {
+        "dataSource": "db",
+        "public": false
+    },
     "course": {
         "dataSource": "MongoDB",
         "public": true
@@ -33,11 +33,15 @@
         "dataSource": "MongoDB",
         "public": true
     },
-    "session": {
+    "chapter": {
         "dataSource": "MongoDB",
         "public": true
     },
     "bill": {
+        "dataSource": "MongoDB",
+        "public": true
+    },
+    "user_bill": {
         "dataSource": "MongoDB",
         "public": true
     }
