@@ -37,22 +37,22 @@ app.use(vf.session({
 //   console.log(user);
 // }); 
 
-var Role = app.models.Role;
-var RoleMapping = app.models.RoleMapping;
+// var Role = app.models.Role;
+// var RoleMapping = app.models.RoleMapping;
 
-Role.create({
-    name: 'admin'
-}, function(err, role) {
-    if (err) return debug(err);
-    debug(role);
-    role.principals.create({
-        principalType: RoleMapping.USER,
-        principalId: "544e2d915a33f4834346cc9a"
-    }, function(err, principal) {
-        if (err) return debug(err);
-        debug(principal);
-    });
-});
+// Role.create({
+//     name: 'admin'
+// }, function(err, role) {
+//     if (err) return debug(err);
+//     debug(role);
+//     role.principals.create({
+//         principalType: RoleMapping.USER,
+//         principalId: "54543604df96d70e39549254"
+//     }, function(err, principal) {
+//         if (err) return debug(err);
+//         debug(principal);
+//     });
+// });
 
 
 
