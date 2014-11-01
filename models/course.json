@@ -87,6 +87,12 @@
             "property": "create"
         },
         {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__create__bills"
+        },
+        {
             "accessType": "READ",
             "principalType": "ROLE",
             "principalId": "$everyone",
