@@ -129,6 +129,12 @@
             "principalId": "teacher",
             "permission": "ALLOW",
             "property": "count"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "exists"
         }
     ],
     "methods": []
