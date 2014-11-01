@@ -19,11 +19,6 @@
             "type": "belongsTo",
             "model": "course",
             "foreignKey": "courseID"
-        },
-        "user": {
-            "type": "belongsTo",
-            "model": "user",
-            "foreignKey": "courseID"
         }
     },
     "acls": [],
