@@ -81,7 +81,7 @@
         },
          {
             "principalType": "ROLE",
-            "principalId": "teacher",
+            "principalId": "admin",
             "permission": "ALLOW",
             "property": "destroyById"
         },
