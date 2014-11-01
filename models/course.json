@@ -134,6 +134,12 @@
             "principalType": "ROLE",
             "principalId": "teacher",
             "permission": "ALLOW",
+            "property": "destroyById"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
             "property": "__get__chapters"
         },
         {
@@ -141,6 +147,12 @@
             "principalId": "teacher",
             "permission": "ALLOW",
             "property": "__count__chapters"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__get__users"
         }
     ],
     "methods": []
