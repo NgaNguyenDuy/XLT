@@ -90,12 +90,6 @@
             "principalType": "ROLE",
             "principalId": "teacher",
             "permission": "ALLOW",
-            "property": "__create__bills"
-        },
-        {
-            "principalType": "ROLE",
-            "principalId": "teacher",
-            "permission": "ALLOW",
             "property": "__create__chapters"
         },
         {
@@ -122,12 +116,6 @@
             "principalType": "ROLE",
             "principalId": "teacher",
             "permission": "ALLOW",
-            "property": "destroyById"
-        },
-        {
-            "principalType": "ROLE",
-            "principalId": "teacher",
-            "permission": "ALLOW",
             "property": "count"
         },
         {
@@ -135,6 +123,24 @@
             "principalId": "teacher",
             "permission": "ALLOW",
             "property": "exists"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "upsert"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__get__chapters"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__count__chapters"
         }
     ],
     "methods": []
