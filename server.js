@@ -40,19 +40,20 @@ app.use(vf.session({
 // var Role = app.models.Role;
 // var RoleMapping = app.models.RoleMapping;
 
-// Role.create({
-//     name: 'admin'
-// }, function(err, role) {
-//     if (err) return debug(err);
-//     debug(role);
-//     role.principals.create({
-//         principalType: RoleMapping.USER,
-//         principalId: "54543604df96d70e39549254"
-//     }, function(err, principal) {
-//         if (err) return debug(err);
-//         debug(principal);
-//     });
-// });
+Role.create({
+    name: 'teacher'
+}, function(err, role) {
+    if (err) return debug(err);
+    debug(role);
+    role.principals.create({
+        principalType: RoleMapping.USER,
+        // principalId: "54543604df96d70e39549254",
+        principalId: "54547237a72ffa9c23455f57"
+    }, function(err, principal) {
+        if (err) return debug(err);
+        debug(principal);
+    });
+});
 
 
 
