@@ -18,11 +18,11 @@
         "public": false
     },
     "RoleMapping": {
-        "dataSource": "db",
+        "dataSource": "MongoDB",
         "public": false
     },
     "Role": {
-        "dataSource": "db",
+        "dataSource": "MongoDB",
         "public": false
     },
     "course": {
@@ -41,7 +41,7 @@
         "dataSource": "MongoDB",
         "public": true
     },
-    "user_bill": {
+    "user_course": {
         "dataSource": "MongoDB",
         "public": true
     }

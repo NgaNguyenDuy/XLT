@@ -62,9 +62,32 @@
             "type": "hasMany",
             "model": "chapter",
             "foreignKey": "courseID"
+        },
+        "bills": {
+            "type": "hasMany",
+            "model": "bill",
+            "foreignKey": "courseID"
+        },
+        "users": {
+            "type": "hasMany",
+            "model": "user",
+            "foreignKey": "courseID"
         }
     },
     "acls": [
+        {
+            "accessType": "*",
+            "principalType": "ROLE",
+            "principalId": "$everyone",
+            "permission": "DENY"
+        },
+        {
+            "accessType": "READ",
+            "principalType": "ROLE",
+            "principalId": "admin",
+            "permission": "ALLOW",
+            "property": "find"
+        }
     ],
     "methods": []
 }

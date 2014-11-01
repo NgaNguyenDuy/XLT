@@ -46,8 +46,14 @@
             "type": "hasMany",
             "model": "bill",
             "foreignKey": "userID"
+        },
+        "courses": {
+            "type": "hasMany",
+            "model": "course",
+            "foreignKey": "userID"
         }
     },
-    "acls": [],
+    "acls": [
+    ],
     "methods": []
 }
