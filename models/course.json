@@ -93,11 +93,42 @@
             "property": "__create__bills"
         },
         {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__create__chapters"
+        },
+        {
             "accessType": "READ",
             "principalType": "ROLE",
             "principalId": "$everyone",
             "permission": "ALLOW",
             "property": "find"
+        },
+        {
+            "accessType": "READ",
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "findById"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "updateAttributes"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "destroyById"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "count"
         }
     ],
     "methods": []
