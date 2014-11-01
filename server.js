@@ -37,8 +37,8 @@ app.use(vf.session({
 //   console.log(user);
 // }); 
 
-// var Role = app.models.Role;
-// var RoleMapping = app.models.RoleMapping;
+var Role = app.models.Role;
+var RoleMapping = app.models.RoleMapping;
 
 Role.create({
     name: 'teacher'
