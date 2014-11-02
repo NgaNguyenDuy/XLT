@@ -22,6 +22,11 @@
             "type": "belongsTo",
             "model": "course",
             "foreignKey": "courseID"
+        },
+        "usres": {
+            "type": "belongsTo",
+            "model": "user",
+            "foreignKey": "userID"
         }
     },
     "acls": [],
