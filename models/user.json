@@ -37,6 +37,9 @@
         },
         "courseId": {
             "type": "array"
+        },
+        "groupID": {
+            "type": "string"
         }
         
     },

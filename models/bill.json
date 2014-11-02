@@ -9,8 +9,11 @@
         "collected": {
             "type": "String"
         },
-        "data": {
+        "dateBill": {
             "type": "date"
+        },
+        "saleGroup": {
+            "type": "string"
         }
     },
     "validations": [],
