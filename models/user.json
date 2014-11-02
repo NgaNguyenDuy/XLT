@@ -86,7 +86,7 @@
             "principalType": "ROLE",
             "principalId": "admin",
             "permission": "ALLOW",
-            "property": "destroyById"
+            "property": "deleteById"
         },
         {
             "principalType": "ROLE",
