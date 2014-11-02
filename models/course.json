@@ -87,12 +87,6 @@
             "property": "create"
         },
         {
-            "principalType": "ROLE",
-            "principalId": "teacher",
-            "permission": "ALLOW",
-            "property": "__create__chapters"
-        },
-        {
             "accessType": "READ",
             "principalType": "ROLE",
             "principalId": "$everyone",
@@ -140,7 +134,19 @@
             "principalType": "ROLE",
             "principalId": "teacher",
             "permission": "ALLOW",
+            "property": "__create__chapters"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
             "property": "__get__chapters"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "teacher",
+            "permission": "ALLOW",
+            "property": "__delete__chapters"
         },
         {
             "principalType": "ROLE",
