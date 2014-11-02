@@ -146,7 +146,7 @@
             "principalType": "ROLE",
             "principalId": "teacher",
             "permission": "ALLOW",
-            "property": "__delete__chapters"
+            "property": "__destroyById__chapters"
         },
         {
             "principalType": "ROLE",
