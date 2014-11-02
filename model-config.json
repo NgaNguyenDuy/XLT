@@ -10,11 +10,11 @@
         "public": false
     },
     "AccessToken": {
-        "dataSource": "db",
+        "dataSource": "MongoDB",
         "public": false
     },
     "ACL": {
-        "dataSource": "db",
+        "dataSource": "MongoDB",
         "public": false
     },
     "RoleMapping": {
