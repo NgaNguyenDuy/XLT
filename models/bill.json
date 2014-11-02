@@ -23,7 +23,7 @@
             "model": "course",
             "foreignKey": "courseID"
         },
-        "usres": {
+        "users": {
             "type": "belongsTo",
             "model": "user",
             "foreignKey": "userID"
