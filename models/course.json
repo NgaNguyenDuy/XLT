@@ -159,6 +159,18 @@
             "principalId": "teacher",
             "permission": "ALLOW",
             "property": "__get__users"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "admin",
+            "permission": "ALLOW",
+            "property": "__get__users"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "admin",
+            "permission": "ALLOW",
+            "property": "__get__bills"
         }
     ],
     "methods": []
