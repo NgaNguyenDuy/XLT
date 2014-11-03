@@ -48,7 +48,7 @@ Role.create({
     role.principals.create({
         principalType: RoleMapping.USER,
         // principalId: "54543604df96d70e39549254",
-        principalId: "54570631631f9b0007f895e4"
+        principalId: "54566174631f9b0007f895df"
     }, function(err, principal) {
         if (err) return debug(err);
         debug(principal);
