@@ -41,14 +41,14 @@ var Role = app.models.Role;
 var RoleMapping = app.models.RoleMapping;
 
 Role.create({
-    name: 'teacher'
+    name: 'admin'
 }, function(err, role) {
     if (err) return debug(err);
     debug(role);
     role.principals.create({
         principalType: RoleMapping.USER,
-        // principalId: "54543604df96d70e39549254", admin
-        principalId: "54570631631f9b0007f895e4"
+        // principalId: "54543604df96d70e39549254",
+        principalId: "544e2d915a33f4834346cc9a"
     }, function(err, principal) {
         if (err) return debug(err);
         debug(principal);
