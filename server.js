@@ -32,28 +32,23 @@ app.use(vf.session({
 
 
 
+// var Role = app.models.Role;
+// var RoleMapping = app.models.RoleMapping;
 
-// User.create({email: 'foo@bar.com', password: 'bar'}, function(err, user) {
-//   console.log(user);
-// }); 
-
-var Role = app.models.Role;
-var RoleMapping = app.models.RoleMapping;
-
-Role.create({
-    name: 'teacher'
-}, function(err, role) {
-    if (err) return debug(err);
-    debug(role);
-    role.principals.create({
-        principalType: RoleMapping.USER,
-        // principalId: "54543604df96d70e39549254",
-        principalId: "54566174631f9b0007f895df"
-    }, function(err, principal) {
-        if (err) return debug(err);
-        debug(principal);
-    });
-});
+// Role.create({
+//     name: 'teacher'
+// }, function(err, role) {
+//     if (err) return debug(err);
+//     debug(role);
+//     role.principals.create({
+//         principalType: RoleMapping.USER,
+//         // principalId: "54543604df96d70e39549254",
+//         principalId: "54566174631f9b0007f895df"
+//     }, function(err, principal) {
+//         if (err) return debug(err);
+//         debug(principal);
+//     });
+// });
 
 
 
