@@ -65,6 +65,13 @@
             "property": "find"
         },
         {
+            "accessType": "READ",
+            "principalType": "ROLE",
+            "principalId": "admin",
+            "permission": "ALLOW",
+            "property": "findById"
+        },
+        {
             "principalType": "ROLE",
             "principalId": "admin",
             "permission": "ALLOW",
