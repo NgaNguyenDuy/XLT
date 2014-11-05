@@ -138,7 +138,7 @@
         },
         {
             "principalType": "ROLE",
-            "principalId": "teacher",
+            "principalId": "$everyone",
             "permission": "ALLOW",
             "property": "__get__chapters"
         },
