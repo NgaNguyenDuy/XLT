@@ -32,24 +32,24 @@ app.use(vf.session({
 
 
 
-// var Role = app.models.Role;
-// var RoleMapping = app.models.RoleMapping;
+ /*var Role = app.models.Role;
+ var RoleMapping = app.models.RoleMapping;
 
-// Role.create({
-//     name: 'teacher'
-// }, function(err, role) {
-//     if (err) return debug(err);
+ Role.create({
+     name: 'teacher'
+ }, function(err, role) {
+     if (err) return debug(err);
 //     debug(role);
-//     role.principals.create({
-//         principalType: RoleMapping.USER,
-//         // principalId: "54543604df96d70e39549254",
-//         principalId: "5457de808addb1f23b3eee6f"
-//     }, function(err, principal) {
-//         if (err) return debug(err);
-//         debug(principal);
-//     });
-// });
-
+     console.log(role);
+     role.principals.create({
+         principalType: RoleMapping.USER,
+         principalId: "545a10f0e7d2e7ae551a78d3"
+     }, function(err, principal) {
+         if (err) return debug(err);
+         debug(principal);
+     });
+ });
+*/
 
 
 
