@@ -29,30 +29,6 @@
     "relations": {
     },
     "acls": [
-        {
-            "principalType": "ROLE",
-            "principalId": "$everyone",
-            "permission": "DENY"
-        },
-        {
-            "principalType": "ROLE",
-            "principalId": "teacher",
-            "permission": "ALLOW",
-            "property": "create"
-        },
-        {
-            "principalType": "ROLE",
-            "principalId": "admin",
-            "permission": "ALLOW",
-            "property": "create"
-        },
-        {
-            "accessType": "READ",
-            "principalType": "ROLE",
-            "principalId": "$everyone",
-            "permission": "ALLOW",
-            "property": "find"
-        }
     ],
     "methods": []
 }
