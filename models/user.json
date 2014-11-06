@@ -97,7 +97,7 @@
         },
         {
             "principalType": "ROLE",
-            "principalId": "$authenticated",
+            "principalId": "admin",
             "permission": "ALLOW",
             "property": "__get__bills"
         }
