@@ -99,7 +99,19 @@
             "principalType": "ROLE",
             "principalId": "admin",
             "permission": "ALLOW",
+            "property": "__create__bills"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "$owner",
+            "permission": "ALLOW",
             "property": "__get__bills"
+        },
+        {
+            "principalType": "ROLE",
+            "principalId": "$authenticated",
+            "permission": "ALLOW",
+            "property": "__count__bills"
         }
     ],
     "methods": []
