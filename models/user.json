@@ -40,6 +40,18 @@
         },
         "groupID": {
             "type": "string"
+        },
+        "google": {
+            "type": "string"
+        },
+        "facebook": {
+            "type": "string"
+        },
+        "github": {
+            "type": "string"
+        },
+        "displayName": {
+            "type": "string"
         }
         
     },

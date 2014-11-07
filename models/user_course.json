@@ -2,10 +2,6 @@
     "name": "user_course",
     "base": "PersistedModel",
     "properties": {
-        "userID": {
-            "type": "string",
-            "required": true
-        },
         "courseID": {
             "type": "string",
             "required": true
@@ -16,12 +12,12 @@
         "courses": {
             "type": "belongsTo",
             "model": "course",
-            "foreignKey": "UserCourseID"
+            "foreignKey": "CourseID"
         },
         "users": {
             "type": "belongsTo",
             "model": "user",
-            "foreignKey": "UserCourseID"
+            "foreignKey": "UserID"
         }
     },
     "acls": [],
